@@ -236,48 +236,31 @@ namespace Proj._Acesso
         }
 
         static void RegistrarAcesso(Cadastro cadastro)
-{
-    Console.Clear();
-    Console.WriteLine("=== Registrar Acesso ===");
-    Console.Write("ID do Usuário: ");
-    if (!int.TryParse(Console.ReadLine(), out int idUsuario))
-    {
-        Console.WriteLine("ID de usuário inválido. Operação cancelada.");
-        return;
-    }
+        {
+            Console.Clear();
+            Console.WriteLine("=== Registrar Acesso ===");
+            Console.Write("ID do Usuário: ");
+            int idUsuario = int.Parse(Console.ReadLine());
+            Console.Write("ID do Ambiente: ");
+            int idAmbiente = int.Parse(Console.ReadLine());
 
-    Console.Write("ID do Ambiente: ");
-    if (!int.TryParse(Console.ReadLine(), out int idAmbiente))
-    {
-        Console.WriteLine("ID do ambiente inválido. Operação cancelada.");
-        return;
-    }
+            var usuario = cadastro.PesquisarUsuario(idUsuario);
+            var ambiente = cadastro.PesquisarAmbiente(idAmbiente);
 
-    // Pesquisa o usuário e o ambiente no cadastro
-    var usuario = cadastro.PesquisarUsuario(idUsuario);
-    var ambiente = cadastro.PesquisarAmbiente(idAmbiente);
+            if (usuario != null && ambiente != null)
+            {
+                // Verificação sem adicionar um método na classe Usuario
+                bool autorizado = usuario.GetAmbientes().Any(a => a.GetId() == ambiente.GetId());
 
-    if (usuario == null)
-    {
-        Console.WriteLine("Usuário não encontrado.");
-        return;
-    }
+                ambiente.RegistrarLog(new Log(DateTime.Now, usuario, autorizado));
+                Console.WriteLine($"Acesso {(autorizado ? "Autorizado" : "Negado")} registrado!");
+            }
+            else
+            {
+                Console.WriteLine("Usuário ou Ambiente não encontrado.");
+            }
+        }
 
-    if (ambiente == null)
-    {
-        Console.WriteLine("Ambiente não encontrado.");
-        return;
-    }
-
-    // Verifica permissão
-    bool autorizado = usuario.PossuiPermissao(ambiente);
-
-    // Registra o log no ambiente
-    ambiente.RegistrarLog(new Log(DateTime.Now, usuario, autorizado));
-
-    // Exibe o resultado do acesso
-    Console.WriteLine($"Acesso {(autorizado ? "Autorizado" : "Negado")} registrado com sucesso!");
-}
 
 
         static void ConsultarLogs(Cadastro cadastro)

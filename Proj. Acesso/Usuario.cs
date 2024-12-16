@@ -29,6 +29,13 @@ namespace Proj._Acesso
             return nome;
         }
 
+        // Método para obter a lista de ambientes
+        public List<Ambiente> GetAmbientes()
+        {
+            return ambientes;
+        }
+
+
         public void SetNome(string nome)
         {
             this.nome = nome;

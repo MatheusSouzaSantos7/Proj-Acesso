@@ -1,0 +1,15 @@
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\bin\Debug\net8.0\Proj. Acesso.exe
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\bin\Debug\net8.0\Proj. Acesso.deps.json
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\bin\Debug\net8.0\Proj. Acesso.runtimeconfig.json
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\bin\Debug\net8.0\Proj. Acesso.dll
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\bin\Debug\net8.0\Proj. Acesso.pdb
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\obj\Debug\net8.0\Proj. Acesso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\obj\Debug\net8.0\Proj. Acesso.AssemblyInfoInputs.cache
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\obj\Debug\net8.0\Proj. Acesso.AssemblyInfo.cs
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\obj\Debug\net8.0\Proj. Acesso.csproj.CoreCompileInputs.cache
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\obj\Debug\net8.0\Proj. Acesso.sourcelink.json
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\obj\Debug\net8.0\Proj. Acesso.dll
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\obj\Debug\net8.0\refint\Proj. Acesso.dll
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\obj\Debug\net8.0\Proj. Acesso.pdb
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\obj\Debug\net8.0\Proj. Acesso.genruntimeconfig.cache
+C:\Users\luzia\OneDrive\Área de Trabalho\Matheus\Estrutura de Dados 2\Proj Acesso\Proj. Acesso\obj\Debug\net8.0\ref\Proj. Acesso.dll
